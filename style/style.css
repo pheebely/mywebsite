@@ -166,6 +166,10 @@
   img {
     margin-bottom: 30px;
   }
+
+  #scrolltowork {
+    visibility: hidden;
+  }
   
   
   
@@ -183,18 +187,24 @@
       font-size: 18px;
     }
 
-    #intro {
+    p, ul {
+      font-size: 16px;
+      text-align: left;
+      padding: 2px;
+    }
+
+    /* #intro {
         position: relative;
         margin-top: 20%;
         padding: 0 10%;
+    } */
+
+    #scrolltowork {
+      visibility: visible;
     }
   
     .email-link {
       font-size: 18px;
-    }
-  
-    .col-sm-6 {
-      text-align: center;
     }
   
     #about-images {
