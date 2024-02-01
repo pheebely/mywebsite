@@ -55,12 +55,13 @@
   }
 
   #preview {
-    padding: 0 10%;
+    padding: 0 5%;
   }
 
   #preview h3{
     opacity: 1;
   }
+
   
   p {
     padding: 20px;
@@ -75,7 +76,7 @@
   }
   
 .navbar .navbar-brand {
-    color: #00000062;
+    color: rgba(0, 0, 0, 0.384);
 }
 
   .navigation-links {
@@ -135,15 +136,17 @@
     padding: 10px 20px;
     text-decoration: none;
     text-transform: capitalize;
-    border: 1px solid var(--secondary-color);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
-    color: rgba(0, 0, 0, 0.703);
+    background-color: #9cbb9457;
+    color: rgba(0, 0, 0, 0.384);
+    transition: 200ms ease-in-out;
   }
   
   .primary-link:hover {
-    color: var(--secondary-color);
-    font-weight: 600;
+    background-color: #9cbb94bc;
+    color: white;
+    font-weight: 600;rgba(156, 187, 148, 0.854)
   }
   
   a {
