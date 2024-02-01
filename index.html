@@ -25,11 +25,11 @@
 <body>
 
     <nav
-    class="navbar navbar-expand-lg fixed-top navbar-light"
+    class="navbar navbar-expand-lg fixed-top navbar-light mx-3"
     style="background-color: #f1ede0"
     >
-    <div class="container-fluid mx-5">
-      <a class="navbar-brand" href="#">Phoebe Ly</a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="img-fluid" src="/img/GlobeInset.png" alt="globe icon" width="30px"> Phoebe Ly</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -88,7 +88,7 @@
         </div>
 
         <div class="row justify-content-between" id="preview">
-            <div class="col-sm-6 text-center px-5">
+            <div class="col-sm-6 text-center mt-5 px-5">
                 <h3>Front-End Development</h3>
                 <a href="#mappymunich">
                   <img class="img-fluid" 
@@ -103,47 +103,75 @@
 
         </div>
 
-        <div class="text-center mt-5">
+        <div class="text-center mt-5 mb-3">
               <h1>My Work</h1>
         </div>
 
-        <div class="row justify-content-evenly mx-3 pt-5" id="work">
-          <div class="col-sm-6 text-center" id="mappymunich">
+        <div class="work" id="work">
+          <div class="row justify-content-evenly mx-3 my-5 pt-3">
+            <div class="col-sm-6 text-center" id="mappymunich">
+                <img class="img-fluid" 
+                src="/img/MappyMunich_FeaturedImage1.png" 
+                alt="poster for a tourist website" >
+            </div>
+            <div class="col-sm-6">
+              <h3>Mappy Munich</h3>
+              <p class="text-left">Mappy Munich is an online guide for tourists with limited mobility, that provides accessibility information for essential amenities and tourist attractions in the city center of Munich through interactive web maps.
+                <br>
+                This was a group project created for our Mapping Project course at TUM.<br><br>
+                My Role:
+                <ul>
+                <li>Website development and design</li>
+                <li>Self-Guided City Tours web map application</li>
+                <li>Data collection and processing for city tours</li>
+                </ul>
+              </p>
+  
+            </div>
+  
+            <div class="text-center my-3">
+              <a
+              href="https://pheebely.github.io/mappymunich/"
+              class="primary-link project-link"
+              title="Try Mappy Munich" 
+              target="_blank"
+              id="mappymunich"
+              >Launch here</a
+            >
+            </div>
+
+        </div>
+
+        <div class="row justify-content-evenly mx-3 my-5 pt-5">
+            <div class="col-sm-6 text-center" id="mulupark">
               <img class="img-fluid" 
-              src="/img/MappyMunich_FeaturedImage1.png" 
-              alt="poster for a tourist website" >
-          </div>
-          <div class="col-sm-6">
-            <h3>Mappy Munich</h3>
-            <p class="text-left">Mappy Munich is an online guide for tourists with limited mobility, that provides accessibility information for essential amenities and tourist attractions in the city center of Munich through interactive web maps.
-              <br>
-              This was a group project created for our Mapping Project course at TUM.<br><br>
-              My Role:
-              <ul>
-              <li>Website development and design</li>
-              <li>Self-Guided City Tours web map application</li>
-              <li>Data collection and processing for city tours</li>
-              </ul>
-            </p>
+              src="/img/MuluA2_191223.jpg" 
+              alt="map of mulu national park" >
+            </div>
+            <div class="col-sm-6">
+              <h3>Taman Negara Gunung Mulu</h3>
+              <p class="text-left">This map was chosen for the <a href="https://www.geohipster.com/2024-geohipster-calendar/" target="_blank">Geohipster 2024 Calendar</a>! You can find my map in September.
+                <br>
+                This printed map was created for the Project Map Creation course at TU Wien in Summer 2023. Taman Negara Gunung Mulu which translates to Mount Mulu National Park, is a UNESCO World Heritage Site in Sarawak, Malaysia. My home country. <br><br>
+                The purpose of this map is to educate the public about Taman Negara Gunung Mulu’s rich biodiversity and spectacular cave system in a well-designed and easily comprehendible poster.
+              </p>
+            </div>
+            <div class="text-center my-3">
+              <a
+              href="/img/MuluA2_191223.jpg"
+              class="primary-link project-link"
+              title="Try Mappy Munich" 
+              target="_blank"
+              id="mappymunich"
+              >View Map</a
+            >
+            </div>
+        </div>
 
-          </div>
-
-          <div class="text-center">
-            <a
-            href="https://pheebely.github.io/mappymunich/"
-            class="primary-link project-link"
-            title="Try Mappy Munich" 
-            target="_blank"
-            id="mappymunich"
-            >Launch here</a
-          >
-          </div>
-
-      </div>
+        </div>
 
 
     </div>
-
 
    
   </header>
