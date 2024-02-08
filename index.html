@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="" content="Portfolio of a female cartographer who also loves front-end development"/>
+    <meta description="" content="Phoebe Ly - Cartographer, Front-End Development, Design in Europe and US"/>
     <title>Phoebe Ly</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -21,15 +21,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100;1,200;1,400;1,500;1,700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/ylh7shm.css">   
 <link rel="stylesheet" href="/style/style.css" />
+<script src="https://kit.fontawesome.com/e1e6165088.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
     <nav
-    class="navbar navbar-expand-lg fixed-top navbar-light mx-3"
+    class="navbar navbar-expand-lg fixed-top navbar-light px-3"
     style="background-color: #f1ede0"
     >
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="img-fluid" src="/img/GlobeInset.png" alt="globe icon" width="30px"> Phoebe Ly</a>
+      <a class="navbar-brand" href="/index.html"><img class="img-fluid" src="/img/GlobeInset.png" alt="globe icon" width="30px"> Phoebe Ly</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -55,21 +57,20 @@
             <a class="nav-link" href="#work" title="Phoebe's Work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about.html#contact" title="Contact Phoebe">Contact</a>
+            <a class="nav-link" href="/contact.html" title="Contact Phoebe">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header>
     <div class="container">
         <div class="col" id="hero">
             <div class="hero-img">
                 <div class="hero-txt" id="intro">
                     <h2>Hello, I am</h2>
                     <h1>Phoebe Ly</h1>
-                    <h3 id="hero-subtxt">I'm a cartographer skilled in design and front-end development, based in Europe & US.</h3>
+                    <h3 id="hero-subtxt">I'm a cartographer and front-end developer, based in Europe & US.</h3>
 
                 </div>
                 <img class="img-fluid" src="img/contours-02.png" alt="hero image of countour lines">
@@ -78,7 +79,7 @@
 
             <div class="text-center mx-5 p-3" id="scrolltowork">
               <a
-              href="#work"
+              href="#worktitle"
               class="primary-link project-link"
               title="View my work "
               >My Work</a>     
@@ -97,13 +98,13 @@
                 </a>            
             </div>
             <div class="col-sm-6 text-center px-5">
-                <h3>Cartographic Design</h3>
+                <h3>Map Design</h3>
                 <img class="img-fluid rounded" src="/img/Wienmap.png" alt="map of mulu park" >
             </div>
 
         </div>
 
-        <div class="text-center mt-5 mb-3">
+        <div class="text-center mt-5 mb-3" id="worktitle">
               <h1>My Work</h1>
         </div>
 
@@ -149,7 +150,7 @@
                   This was a group project created for our Mapping Project course at TUM.<br><br>
                   My Role:
                 </p>
-                <ul>
+                <ul class="body-ul">
                   <li>Website development and design</li>
                   <li>Self-Guided City Tours web map application</li>
                   <li>Data collection and processing for city tours</li>
@@ -176,8 +177,19 @@
 
     </div>
 
-   
-  </header>
-    
+
+  <footer>
+    <div class="social-links d-flex justify-content-center">
+        <a href="https://www.github.com/pheebely" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:pheebely@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.twitter.com/pheebely" target="_blank">
+          <i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+      </div>
+  </footer>
 </body>
 </html>
