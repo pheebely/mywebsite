@@ -223,7 +223,12 @@
 footer .social-links a:hover {
   color: black;
 }
-  
+
+.fixed-footer {
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+}
 
 
   #scrolltowork {
@@ -283,8 +288,12 @@ footer .social-links a:hover {
     }
 
     .contact-section {
-      padding: 5px 5px 50px;
+      padding: 35% 2% 10%;
 
+    }
+
+    .contact-section h2 {
+      text-align: center;
     }
 
     .about-section h2,h3,h5, p {
