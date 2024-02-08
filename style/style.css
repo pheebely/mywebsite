@@ -140,11 +140,16 @@
 }
 
 .about-section {
-  padding: 100px 20px;
+  padding: 70px 20px;
 }
 
-.about-section h2, h3, p {
+.about-section h2, h3, h5, p {
   text-align: left;
+}
+
+.about-section h2 {
+  font-style: italic;
+  font-weight: 700;
 }
 
 .about-section h5 {
@@ -160,7 +165,7 @@
   padding: 100px 100px;
 }
 
-.contact-section h2, h3, a {
+.contact-section h3 {
   text-align: center;
 }
 
@@ -219,12 +224,7 @@ footer .social-links a:hover {
   color: black;
 }
   
-  
-  #about-images {
-    margin: 0 100px;
-    margin-bottom: 50px;
-  }
-  
+
 
   #scrolltowork {
     visibility: hidden;
@@ -279,7 +279,12 @@ footer .social-links a:hover {
     }
 
     .about-section {
-      padding: 5px;
+      padding: 30px;
+    }
+
+    .contact-section {
+      padding: 5px 5px 50px;
+
     }
 
     .about-section h2,h3,h5, p {
