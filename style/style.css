@@ -42,6 +42,8 @@
 
   p, ul {
     font-size: 18px;
+    font-family: "roc-grotesk-variable", sans-serif;
+    font-variation-settings: "wght" 350, "wdth" 95;
   }
 
   .hero-img {
@@ -111,9 +113,11 @@
     text-align: center;
   }
 
-  nav {
+  nav a {
     font-size: 18px;
     font-weight: 300;
+    font-family: "cartograph-cf", monospace;
+    ;
   }
   
 .navbar .nav-item {
