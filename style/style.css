@@ -11,7 +11,7 @@
   }
   
   body {
-    margin: 80px auto;
+    margin: 80px auto 45px;
     max-width: 100%;
     font-family: "cartograph-cf", monospace;
     font-style: normal;   
@@ -215,7 +215,7 @@
   }
 
   footer .social-links a {
-    margin: 0 20px;
+    margin: 40px 20px 0px;
     color: var(--secondary-color);
     background: var(--button-color);
     padding: 10px 14px;
